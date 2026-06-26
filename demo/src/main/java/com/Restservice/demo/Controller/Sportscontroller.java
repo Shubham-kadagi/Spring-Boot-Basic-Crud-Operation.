@@ -49,7 +49,7 @@ public class Sportscontroller {
 		
 		  sportservice.addsport(sport);
 		
-		return" Sport added Successfully";
+		return"Sport added Successfully";
 			
 	}
 	
@@ -64,4 +64,5 @@ public class Sportscontroller {
 		}
 	
 
+}
 }

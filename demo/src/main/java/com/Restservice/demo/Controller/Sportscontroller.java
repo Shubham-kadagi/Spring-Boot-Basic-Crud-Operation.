@@ -34,7 +34,7 @@ public class Sportscontroller {
 	public List<Sport>getsport()
 	{
 		
-	 return sportservice.getsport();
+	 return sportservice.getsport().OrElseThrow(()->new RuntimeException("Item Not Found with Sport" +Sport);
 		
 	}
 	
